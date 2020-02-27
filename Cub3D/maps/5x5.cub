@@ -1,0 +1,17 @@
+NO ./maps/pics/bluestone.png
+SO ./maps/pics/colorstone.png
+WE ./maps/pics/yocapell.png
+EA ./maps/pics/eagle.png
+S ./maps/pics/barrel.png
+C 173,216,230
+F 100,100,100
+
+R 1080 720
+
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+1 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1
+1 0 0 0 1 0 0 N 0 0 1 0 0 2 0 1
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1

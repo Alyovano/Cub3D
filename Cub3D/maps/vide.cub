@@ -1,0 +1,14 @@
+1111
+1001
+1NS1
+1111
+
+
+
+R 1080 720
+C 102,56,83
+F 45,85,213
+SO ./prout/mdr
+NO ./texturexyz/lol
+WE ./salut/texture/prout
+EA ./coucou/bonjour
