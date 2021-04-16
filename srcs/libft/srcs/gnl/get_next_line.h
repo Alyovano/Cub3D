@@ -21,6 +21,10 @@
 #  define BUFFER_SIZE 100
 # endif
 
+#ifndef OPEN_MAX
+# define OPEN_MAX 32
+#endif
+
 size_t	ft_len(const char *s);
 void	*ft_memcpy_gnl(void *dst, const void *src, size_t n);
 char	*ft_ndup(char *s1, size_t n);

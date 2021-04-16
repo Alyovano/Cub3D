@@ -68,11 +68,9 @@ void	ft_width_s_manager(char *s, t_struct *u)
 
 int		ft_width_i_manager(int i, t_struct *u)
 {
-	int		j;
 	int		k;
 	char	*result;
 
-	j = 0;
 	k = ft_treat_neg(&i);
 	if (!(result = ft_itoa(i)))
 		return (0);

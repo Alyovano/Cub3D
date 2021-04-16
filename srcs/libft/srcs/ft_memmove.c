@@ -16,13 +16,11 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	unsigned char	*srccp;
 	unsigned char	*dstcp;
-	size_t			i;
 
 	if (dst == src || (!dst || !src))
 		return (dst);
 	srccp = (unsigned char *)src;
 	dstcp = (unsigned char *)dst;
-	i = 0;
 	if (dstcp < srccp)
 	{
 		ft_memcpy(dstcp, srccp, len);

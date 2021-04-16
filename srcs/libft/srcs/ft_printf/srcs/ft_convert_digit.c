@@ -32,10 +32,8 @@ int		ft_d_func(int i, t_struct *u)
 
 int		ft_u_func(unsigned int i, t_struct *u)
 {
-	size_t	j;
 	char	*u_str;
 
-	j = 0;
 	if (u->precision != -1)
 		ft_u_precision(i, u);
 	else if (u->width)

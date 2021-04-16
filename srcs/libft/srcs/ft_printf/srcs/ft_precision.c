@@ -14,13 +14,11 @@
 
 void	ft_s_precision(char *s, t_struct *u)
 {
-	int	i;
 	int	k;
 
-	i = 0;
 	k = ft_treat_neg(&u->width);
 	u->precision = (size_t)u->precision >= ft_strlen(s) ? ft_strlen(s)
-		: u->precision;
+		: (size_t)u->precision;
 	if (u->flags == '0' && u->width > u->precision)
 	{
 		ft_precision_x_zero(u, 0);
